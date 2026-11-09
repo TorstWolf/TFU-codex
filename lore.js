@@ -533,9 +533,9 @@ Archangels, among them [[michael]] and [[lucifer]] before the Fall, are vastly s
 
 His former duty was recording human history. His reality alteration is minor: he can rewrite **one line of reality at a time**.
 
-He is calm, thoughtful and compassionate, and deeply affected by Aurelia and [[oranjii]]. He and [[ellie]] are a couple.`,
-      facts: { Kind: "Angel", Power: "Rewrites one line of reality at a time", Sister: "[[aurelia-vayn]]", Partner: "[[ellie]]", Look: "Silver-white hair with crimson streaks, halo, celestial jewelry" },
-      related: ["ellie", "oranjii"],
+He is calm, thoughtful and compassionate, and deeply affected by Aurelia and [[oranjii]].`,
+      facts: { Kind: "Angel", Power: "Rewrites one line of reality at a time", Sister: "[[aurelia-vayn]]", Look: "Silver-white hair with crimson streaks, halo, celestial jewelry" },
+      related: ["oranjii"],
     },
     {
       id: "library-beyond-horizons", parent: "lucian-vayn", type: "realm", name: "Library Beyond Horizons",
@@ -605,17 +605,6 @@ She wears weathered shrine-style layers in white, charcoal and deep red, with to
       image: "img/shizuka.jpg",
       summary: "Modest goddess of a shrine near Oranjii's.",
       facts: { Kind: "Shrine goddess" },
-    },
-    {
-      id: "ellie", parent: "cosmology", type: "character", name: "Ellie",
-      tagline: "A glitch in reality.",
-      summary: "A petite Cosmic Goddess of Sun and Moon. Her place in the cosmos is still a mystery.",
-      body: `Ellie is a petite adult **Cosmic Goddess**, described as a glitch in reality. She embodies a Sun and Moon duality, with cosmic purple and ivory-blonde coloring, a purple Moon eye and a golden Sun eye, celestial jewelry, and Gemini symbolism. Her dark side looks like a star-filled cosmic void.
-
-She does not fit the ordinary local-faith model of the gods, and her exact place in the larger cosmos is still unresolved.
-
-She and [[lucian-vayn]] are a couple.`,
-      facts: { Kind: "Cosmic Goddess", Eyes: "Purple Moon, golden Sun", Partner: "[[lucian-vayn]]" },
     },
 
     {
@@ -770,8 +759,7 @@ It is **a separate continuity**: nothing here automatically applies to the main 
 - **[[victoria]]:** a fantasy sky-fleet officer with the long enchanted bow **Starpiercer**.
 - **[[aurelian]]:** an elven artificer with a rune gauntlet.
 - **[[stella]]:** a Riftwarden runescribe, occult researcher and arcane analyst.
-- **[[eric-berg]]:** a human warrior-king and practical traveling monarch, in steel plate and dark-blue wool and fur, with a battle circlet, wolf and mountain heraldry, and a rune-engraved longsword.
-- **[[ellie]]:** **The Cosmic Error**, a goddess outside every established divine domain. Her dark half is tied to the **Outer Sky**.`,
+- **[[eric-berg]]:** a human warrior-king and practical traveling monarch, in steel plate and dark-blue wool and fur, with a battle circlet, wolf and mountain heraldry, and a rune-engraved longsword.`,
     },
     {
       id: "wandering-knight", parent: "tfu-fantasy", type: "character", name: "Lucian, the Wandering Knight",
