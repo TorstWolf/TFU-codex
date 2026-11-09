@@ -5,7 +5,7 @@
    ============================================================ */
 window.CODEX = {
   title: "TFU Codex",
-  backLink: { label: "← Vayn's Library", href: "https://vaynslibrary.com" },
+  backLink: { label: "← Vayns Library", href: "https://vaynslibrary.com" },
 
   // Entry types, in the order they're listed on a page: id: [singular, plural]
   types: {
@@ -540,7 +540,7 @@ He is calm, thoughtful and compassionate, and deeply affected by Aurelia and [[o
     {
       id: "library-beyond-horizons", parent: "lucian-vayn", type: "realm", name: "Library Beyond Horizons",
       image: "img/library-beyond-horizons.jpg",
-      tagline: "Vayn's Library.",
+      tagline: "Vayns Library.",
       summary: "Lucian's library among sky islands, in a world his mind created.",
       body: `The Library Beyond Horizons lies among sky islands, in a world created by [[lucian-vayn]]'s own mind.`,
     },
