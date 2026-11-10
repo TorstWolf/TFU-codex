@@ -302,8 +302,46 @@ The main-setting design shows him as a roughly 1.9 m, white-haired wolf demihuma
       summary: "Colossal mobile fortress-cities. A Great-Cruiser can carry about 70,000 people.",
       body: `Northern engineering combines conventional and magical technology, and the landships are its most visible result: colossal mobile fortress-cities.
 
-A **Great-Cruiser** can carry about **70,000 people**. That is its population capacity, not its combat crew.`,
+A **Great-Cruiser** can carry about **70,000 people**. That is its population capacity, not its combat crew.
+
+Sizes, firepower, fuel and supplies are still being worked out; see [[landship-engineering]].`,
       facts: { "Great-Cruiser capacity": "~70,000 people" },
+    },
+    {
+      id: "landship-engineering", parent: "landships", type: "topic", name: "Landship Engineering",
+      status: "Working estimates",
+      tagline: "The numbers behind the fortress-cities.",
+      summary: "Size, firepower and supply estimates for the landships. Only the ~70,000-person capacity is canon.",
+      body: `Only one number on this page is canon: a **Great-Cruiser** carries about **70,000 people**. Everything else is a working estimate or a proposed engineering model, and it can still change.
+
+**Size**
+
+- Great-Cruiser: about 350–600 m long, 120–250 m wide and 150–250 m high.
+- A smaller alternative of 250–400 × 100–150 × 80–120 m at about 300,000 tons also exists. The two estimates have not been reconciled.
+- Frigate: about 80–120 m long, 25–40 m wide and 35–50 m high, with roughly 1,000–5,000 people on 5–10 major levels.
+- A Great-Cruiser has roughly 100–200 times a frigate's internal volume.
+
+**Living space**
+
+An early sketch of a 300 × 200 × 120 m hull gives 24 decks of 5 m each. Ten of them as living space make 600,000 m²: room for 30,000 people at 20 m² each, or 60,000 at 10 m². This is a rough scale check, not a deck plan.
+
+**Main gun**
+
+Earlier estimates give a caliber of about 3.2 m, a 90–100 m barrel and a 450-ton shell fired at 800–900 m/s. Proposed range is 40–80 km effective and 120+ km maximum, with a reload of 15–30 minutes by hand or 5–10 minutes with an autoloader.
+
+**Engineering model**
+
+A first model from November 2026 treats a 300,000-ton Great-Cruiser as a conventional diesel-electric machine, with no magical help yet, so that magic's share can be defined later.
+
+- 700 MW of generators. City services alone take about 70 MW, roughly 1 kW per person.
+- Routine travel at 10 km/h, 5 km/h when cautious, and 20 km/h on prepared, level routes. On a 5% grade, power limits it to about 8.7 km/h.
+- About 123 kPa of ground pressure over 24,000 m² of track contact. It needs surveyed routes; bridges and frozen water can't be assumed safe.
+- A day of 8 hours moving and 16 standing burns about 776 tons of fuel and covers 80 km. Standing still alone costs about 338 tons a day.
+- 70,000 people eat about 105 tons of food and use about 7,000 tons of water a day. At 80% recycling, 1,400 tons must still be replaced daily.
+- Fourteen days without resupply take about 41,400 tons of fuel, food and water, roughly 14% of the ship's mass.
+
+The result is a slow fortress-city whose range depends as much on water and refuelling as on engine power.`,
+      facts: { "Canon": "~70,000 people per Great-Cruiser", "Proposed power": "700 MW", "Routine speed": "10 km/h", "Fuel per travel day": "~776 t" },
     },
     {
       id: "alpine-tribe", parent: "northern-tribes", type: "subfaction", name: "The Alpine Tribe",
