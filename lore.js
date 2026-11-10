@@ -42,7 +42,7 @@ window.CODEX = {
   },
 
   /* Fields: id, parent, type, name, tagline, summary, body, facts, related, image,
-     emblem (transparent faction symbol), theme (one of the themes above),
+     emblem (transparent faction symbol), logo (shown on the entry's own page only, not passed down), theme (one of the themes above),
      status (e.g. "Working name" — shows a small badge for not-yet-final canon) */
   entries: [
     // =====================================================================
@@ -50,6 +50,7 @@ window.CODEX = {
     // =====================================================================
     {
       id: "tfu", type: "world", name: "TFU",
+      logo: "img/brand/tfu-logo.webp",
       theme: "default",
       image: "img/tfu.jpg",
       tagline: "Torstwolfs Fictional Universe",

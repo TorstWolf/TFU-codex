@@ -133,7 +133,7 @@
         ${e.image ? `<img class="hero-img" src="${esc(e.image)}" alt="${esc(e.name)}" title="View full picture">`
                   : watermarkSrc && !e.emblem ? `<img class="watermark" src="${esc(watermarkSrc)}" alt="">` : ""}
         <div class="hero-body">
-          ${e.emblem ? `<img class="hero-mark" src="${esc(e.emblem)}" alt="${esc(e.name)} emblem">` : ""}
+          ${e.emblem || e.logo ? `<img class="hero-mark" src="${esc(e.emblem || e.logo)}" alt="${esc(e.name)} emblem">` : ""}
           <div>
             <div class="kind">${esc(typeLabel(e.type))}${partOf}${e.status ? `<span class="status" title="Not final canon yet">${esc(e.status)}</span>` : ""}</div>
             <h1>${esc(e.name)}</h1>
